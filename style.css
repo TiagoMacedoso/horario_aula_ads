@@ -1,0 +1,131 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --white-text: #e3e3e3;
+    --bg-table: #222;
+    --bg-table-cells: rgb(150, 150, 150);
+    --color-teams: #5b5fc7;
+}
+
+*{
+    font-family: 'Inter', Arial, sans-serif;
+    user-select: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--white-text);
+    background-color: var(--black);
+}
+
+section{
+    width: 90%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(1){
+    text-align: center;
+}
+
+section:nth-child(2){
+    overflow-x: scroll;
+    display: block;
+    max-height: 65%;
+}
+
+table{
+    background-color: var(--bg-table);
+    text-align: center;
+    font-size: small;
+    border-spacing: 0px 10px;
+    border-radius: .5em;
+}
+
+table thead tr th{
+    font-style: italic;
+    font-size: medium;
+    color: var(--white);
+    border-bottom: 1px solid var(--bg-table-cells);
+    padding-bottom: 10px;
+}
+
+table tbody tr:nth-child(2n){
+    background-color: var(--bg-table-cells);
+    color: var(--bg-table);
+}
+
+table tbody tr td{
+    padding: .3em;
+}
+
+table tbody tr td:nth-last-child(1){
+    min-width: 200px;
+}
+
+table tbody tr td:nth-last-child(1) a{
+    cursor: url(/assets/microsoft_office_teams_logo_icon_145726.ico), default;
+    text-decoration: none;
+    color: var(--color-teams);
+    font-weight: bold;
+}
+
+table caption{
+    margin-top: 1em;
+    caption-side: bottom;
+    text-align: right;
+    font-style: italic;
+}
+
+section:nth-child(3){
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section:nth-child(3) a{
+    width: 2em;
+}
+
+section:nth-child(3) a img{
+    width: 100%;
+}
+
+@media (max-width: 315px) {
+    section:nth-child(1) h1 span{
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    section:nth-child(1) h1{
+        font-size: 2.5em;
+    }
+    
+    table{
+        width: 100%;
+        font-size: large;
+    }
+
+    table thead tr th{
+        font-size: x-large;
+        padding: .6em;
+    }
+
+    table tbody tr td{
+        padding: 1em;
+    }
+
+    section:nth-child(3) a{
+        width: 2.5em;
+    }
+}
