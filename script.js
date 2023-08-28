@@ -7,7 +7,7 @@ const materias = [
         email: "adson.alves@facens.br",
         dia: "Segunda",
         hora: "19h as 20h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmQzNzViMjEtOTk2Yi00NDRlLWJkNGItNDRjY2RkYzc1ZWQ4%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22adfd45bf-a88e-43ba-a7c8-0ac7e35a4fd7%22%7d",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODhhOWM5NDItNmEwNi00OWVlLWEzYjEtYzI3N2M3ZTUwNWRm%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22f791c0ec-0a4c-447d-be2b-8ff5895ef185%22%7d",
         linkName: "UPX II"
     },
     {
@@ -21,8 +21,8 @@ const materias = [
     },
     {
         materia: "Redes de Computadores",
-        professor: "Não divulgado",
-        email: "Não divulgado",
+        professor: "Eliney Sabino",
+        email: "eliney.sabino@facens.br",
         dia: "Terça",
         hora: "21h as 22h",
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2EzMDVjYjYtNDhlZi00MzE5LWI1YjUtZWUwMWQ2ZGIxMTA5%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22f791c0ec-0a4c-447d-be2b-8ff5895ef185%22%7d",
