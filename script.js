@@ -29,15 +29,6 @@ const materias = [
         linkName: "POO"
     },
     {
-        materia: "Desenvolvimento Humano e Social",
-        professor: "Gilberto José de Camargo",
-        email: "gilberto.camargo@facens.br",
-        dia: "Não divulgado",
-        hora: "Não divulgado",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTMzNzZjZTgtNmVmZi00ZDI2LTk0MWQtM2YwNzE4OGUxZjgx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%222f5629c9-848a-43a1-b91c-4858fa1c6386%22%7d",
-        linkName: "Des. Hum. e Social"
-    },
-    {
         materia: "Redes de Computadores",
         professor: "Eliney Sabino",
         email: "eliney.sabino@facens.br",
@@ -45,6 +36,15 @@ const materias = [
         hora: "20h as 21h",
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2EzMDVjYjYtNDhlZi00MzE5LWI1YjUtZWUwMWQ2ZGIxMTA5%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22f791c0ec-0a4c-447d-be2b-8ff5895ef185%22%7d",
         linkName: "Redes"
+    },
+    {
+        materia: "Desenvolvimento Humano e Social",
+        professor: "Gilberto José de Camargo",
+        email: "gilberto.camargo@facens.br",
+        dia: "Sexta",
+        hora: "18h as 19h",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTMzNzZjZTgtNmVmZi00ZDI2LTk0MWQtM2YwNzE4OGUxZjgx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%222f5629c9-848a-43a1-b91c-4858fa1c6386%22%7d",
+        linkName: "Des. Hum. e Social"
     },
     {
         materia: "Banco de Dados",
