@@ -43,7 +43,7 @@ const materias = [
         email: "gilberto.camargo@facens.br",
         dia: "Sexta",
         hora: "18h as 19h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTMzNzZjZTgtNmVmZi00ZDI2LTk0MWQtM2YwNzE4OGUxZjgx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%222f5629c9-848a-43a1-b91c-4858fa1c6386%22%7d",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3Ameeting_ZWU0MTAwYjAtN2RmNy00OWMzLThkNTMtZThiMTE1NjVlZmRk%40thread.v2/0?context=%7B%22Tid%22%3A%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2C%22Oid%22%3A%222f5629c9-848a-43a1-b91c-4858fa1c6386%22%2C%22MessageId%22%3A%220%22%7D",
         linkName: "Des. Hum. e Social"
     },
     {
