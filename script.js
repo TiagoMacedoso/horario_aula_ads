@@ -11,22 +11,22 @@ const materias = [
         linkName: "UPX II"
     },
     {
-        materia: "Engenharia de Software",
-        professor: "Maria Janaina da Silva Ferreira",
-        email: "maria.ferreira@facens.br",
-        dia: "Segunda",
-        hora: "20h as 21h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzViYmI5ZWQtOTYwYy00NjM2LThhODEtZTVkYWMwNjIxMjgz%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22adfd45bf-a88e-43ba-a7c8-0ac7e35a4fd7%22%7d",
-        linkName: "Eng. Software"
-    },
-    {
         materia: "Programação Orientada à Objetos",
-        professor: "Maria Janaina da Silva Ferreira",
-        email: "maria.ferreira@facens.br",
+        professor: "Em processo de contratação.",
+        email: "primeiro_nome.último_nome@facens.br",
         dia: "Quarta",
-        hora: "18h as 19h",
+        hora: "20h as 21h",
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmQzNzViMjEtOTk2Yi00NDRlLWJkNGItNDRjY2RkYzc1ZWQ4%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22adfd45bf-a88e-43ba-a7c8-0ac7e35a4fd7%22%7d",
         linkName: "POO"
+    },
+    {
+        materia: "Engenharia de Software",
+        professor: "Evandro Klengenfuss Veronez",
+        email: "evandro.veronez@facens.br",
+        dia: "Quinta",
+        hora: "18h as 19h",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTU1MjFiZGQtOGJiMy00ZWE4LTllYTAtZDBmNTU1OGRkZDg1%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%2280f5702e-0a98-4db2-9a23-4c7250ebe79e%22%7d",
+        linkName: "Eng. Software"
     },
     {
         materia: "Redes de Computadores",
@@ -48,8 +48,8 @@ const materias = [
     },
     {
         materia: "Banco de Dados",
-        professor: "Maria Janaina da Silva Ferreira",
-        email: "maria.ferreira@facens.br",
+        professor: "Em processo de contratação.",
+        email: "primeiro_nome.último_nome@facens.br",
         dia: "Sexta",
         hora: "19h as 20h",
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTY1YzFlNmMtYmEzOC00NTlhLTkzZDYtNDFjMDA3YWZlNDEy%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22adfd45bf-a88e-43ba-a7c8-0ac7e35a4fd7%22%7d",
@@ -75,3 +75,5 @@ for(let i = 0; i < materias.length; i++){
 
     materias[i].link == "Não divulgado" ? td_link.innerText = "Ainda não está disponível" : td_link.innerHTML = `<a href="${materias[i].link}">Clique para acessar o chat de ${materias[i].linkName}</a>`
 }
+
+alert("Ainda não sabemos como serão as matérias de POO e BD, devido a saída da professora Maria.\nAssim que divulgado será alterado aqui!\nClique em OK para visualizar as matéria que estão corretas.")
