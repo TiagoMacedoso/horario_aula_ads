@@ -34,7 +34,7 @@ const materias = [
         email: "amauri.filho@facens.br",
         dia: "Quinta",
         hora: "20h as 21h",
-        link: "https://teams.microsoft.com/_#/pre-join-calling/19:meeting_MDM4NjY2YjAtNDJkMC00Y2Y1LWEzMDAtMDcwMjE4YmE4MDNk@thread.v2",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3Ameeting_MDM4NjY2YjAtNDJkMC00Y2Y1LWEzMDAtMDcwMjE4YmE4MDNk%40thread.v2/0?context=%7B%22Tid%22%3A%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2C%22Oid%22%3A%22d25365c9-870d-4903-b8e9-87358155a71c%22%2C%22MessageId%22%3A%220%22%7D",
         linkName: "Redes"
     },
     {
