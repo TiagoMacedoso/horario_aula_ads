@@ -2,58 +2,58 @@ const tbody = document.querySelector("tbody")
 
 const materias = [
     {
-        materia: "Usina de Projetos Experimentais II",
-        professor: "Adson Nogueira Alves",
-        email: "adson.alves@facens.br",
-        dia: "Segunda",
+        materia: "Estrutura de Dados",
+        professor: "Bruno Aguilar da Cunha",
+        email: "bruno.cunha@facens.br",
+        dia: "Terça",
         hora: "19h as 20h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODhhOWM5NDItNmEwNi00OWVlLWEzYjEtYzI3N2M3ZTUwNWRm%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22f791c0ec-0a4c-447d-be2b-8ff5895ef185%22%7d",
-        linkName: "UPX II"
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWU1MzQyYTMtZGY3Yy00ZWMxLTg4NDQtMGRhMmVkMjk2ZjE5%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%222418aa2e-245c-4ab4-a995-0376f0024cd1%22%7d",
+        linkName: "ED"
     },
     {
-        materia: "Banco de Dados",
+        materia: "UPX III",
+        professor: "Hadassa Harumi Castelo Onisaki Pinto",
+        email: "hadassa.pinto@facens.br",
+        dia: "Quarta",
+        hora: "18:00h as 19:00h",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmY0MWIwNmYtOTY3Zi00NzY5LThjZDQtYWJmOGZiNzg1NDU3%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22afbe515f-16ea-4637-96dd-79029fcbc4af%22%7d",
+        linkName: "UPX III"
+    },
+    {
+        materia: "Linguagens de Programação",
+        professor: "Emerson Dos Santos Paduan",
+        email: "emerson.paduan@facens.br",
+        dia: "Quarta",
+        hora: "20h as 21h",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDUzZDYwNDctMjgzMi00NjkyLTliNmEtY2RhMTBmZDA1M2U4%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%224ecc2cd5-c3b7-451d-9613-63bc411f662b%22%7d",
+        linkName: "LP"
+    },
+    {
+        materia: "Análise de Sistemas",
         professor: "Vanessa Cristina Lourenço",
         email: "vanessa.lourenco@facens.br",
         dia: "Quarta",
-        hora: "21:30h as 22:30h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3Ameeting_ZTg5NTM1NjMtN2QxZi00N2QyLWJhNzYtMWY3MGYxYmM1Y2Q4%40thread.v2/0?context=%7B%22Tid%22%3A%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2C%22Oid%22%3A%22e8ed8b30-a1ab-4480-b76d-cc355287fb38%22%2C%22MessageId%22%3A%220%22%7D",
-        linkName: "BD"
+        hora: "22h as 23h",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjUxYTg2YWMtZmM2MC00YWU1LTg0M2UtMzlkOTlmZWRmZmVl%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22e8ed8b30-a1ab-4480-b76d-cc355287fb38%22%7d",
+        linkName: "AS"
     },
     {
-        materia: "Engenharia de Software",
+        materia: "Empreendedorismo",
         professor: "Evandro Klengenfuss Veronez",
         email: "evandro.veronez@facens.br",
         dia: "Quinta",
-        hora: "18h as 19h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTU1MjFiZGQtOGJiMy00ZWE4LTllYTAtZDBmNTU1OGRkZDg1%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%2280f5702e-0a98-4db2-9a23-4c7250ebe79e%22%7d",
-        linkName: "Eng. Software"
+        hora: "14h as 15h",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDRhOWEwMjEtZmFkZC00Y2ZmLWE5MmQtMDk3OGMzZDkzMWQx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%2280f5702e-0a98-4db2-9a23-4c7250ebe79e%22%7d",
+        linkName: "Empreendedorismo"
     },
     {
-        materia: "Redes de Computadores",
-        professor: "Amauri Antunes Filho",
-        email: "amauri.filho@facens.br",
-        dia: "Quinta",
-        hora: "20h as 21h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3Ameeting_MDM4NjY2YjAtNDJkMC00Y2Y1LWEzMDAtMDcwMjE4YmE4MDNk%40thread.v2/0?context=%7B%22Tid%22%3A%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2C%22Oid%22%3A%22d25365c9-870d-4903-b8e9-87358155a71c%22%2C%22MessageId%22%3A%220%22%7D",
-        linkName: "Redes"
-    },
-    {
-        materia: "Desenvolvimento Humano e Social",
-        professor: "Gilberto José de Camargo",
-        email: "gilberto.camargo@facens.br",
+        materia: "Estatística",
+        professor: "Rodrigo Luiz Gigante",
+        email: "rodrigo.gigante@facens.br",
         dia: "Sexta",
         hora: "18h as 19h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3Ameeting_ZWU0MTAwYjAtN2RmNy00OWMzLThkNTMtZThiMTE1NjVlZmRk%40thread.v2/0?context=%7B%22Tid%22%3A%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2C%22Oid%22%3A%222f5629c9-848a-43a1-b91c-4858fa1c6386%22%2C%22MessageId%22%3A%220%22%7D",
-        linkName: "Des. Hum. e Social"
-    },
-    {
-        materia: "Programação Orientada à Objetos",
-        professor: "Emerson Dos Santos Paduan",
-        email: "emerson.paduan@facens.br",
-        dia: "Sexta",
-        hora: "21h as 22h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmQzNzViMjEtOTk2Yi00NDRlLWJkNGItNDRjY2RkYzc1ZWQ4%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22adfd45bf-a88e-43ba-a7c8-0ac7e35a4fd7%22%7d",
-        linkName: "POO"
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzRlYWM2NDUtMDhkNC00Yzc4LWE4N2UtNDRlYTgyZjlkMzUy%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%2246a23140-071b-40b0-9a67-063b784bef55%22%7d",
+        linkName: "Estatística"
     }
 ]
 
