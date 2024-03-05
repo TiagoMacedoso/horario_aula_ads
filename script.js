@@ -2,6 +2,15 @@ const tbody = document.querySelector("tbody")
 
 const materias = [
     {
+        materia: "Empreendedorismo",
+        professor: "Evandro Klengenfuss Veronez",
+        email: "evandro.veronez@facens.br",
+        dia: "Terça",
+        hora: "14h as 15h",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDRhOWEwMjEtZmFkZC00Y2ZmLWE5MmQtMDk3OGMzZDkzMWQx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%2280f5702e-0a98-4db2-9a23-4c7250ebe79e%22%7d",
+        linkName: "Empreendedorismo"
+    },
+    {
         materia: "Estrutura de Dados",
         professor: "Bruno Aguilar da Cunha",
         email: "bruno.cunha@facens.br",
@@ -13,7 +22,7 @@ const materias = [
     {
         materia: "UPX III",
         professor: "Hadassa Harumi Castelo Onisaki Pinto",
-        email: "hadassa.pinto@facens.br",
+        email: "hadassa.onisaki@facens.br",
         dia: "Quarta",
         hora: "18:00h as 19:00h",
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmY0MWIwNmYtOTY3Zi00NzY5LThjZDQtYWJmOGZiNzg1NDU3%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22afbe515f-16ea-4637-96dd-79029fcbc4af%22%7d",
@@ -36,15 +45,6 @@ const materias = [
         hora: "22h as 23h",
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjUxYTg2YWMtZmM2MC00YWU1LTg0M2UtMzlkOTlmZWRmZmVl%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22e8ed8b30-a1ab-4480-b76d-cc355287fb38%22%7d",
         linkName: "AS"
-    },
-    {
-        materia: "Empreendedorismo",
-        professor: "Evandro Klengenfuss Veronez",
-        email: "evandro.veronez@facens.br",
-        dia: "Quinta",
-        hora: "14h as 15h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDRhOWEwMjEtZmFkZC00Y2ZmLWE5MmQtMDk3OGMzZDkzMWQx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%2280f5702e-0a98-4db2-9a23-4c7250ebe79e%22%7d",
-        linkName: "Empreendedorismo"
     },
     {
         materia: "Estatística",
