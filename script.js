@@ -2,15 +2,6 @@ const tbody = document.querySelector("tbody")
 
 const materias = [
     {
-        materia: "Empreendedorismo",
-        professor: "Evandro Klengenfuss Veronez",
-        email: "evandro.veronez@facens.br",
-        dia: "Terça",
-        hora: "14h as 15h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDRhOWEwMjEtZmFkZC00Y2ZmLWE5MmQtMDk3OGMzZDkzMWQx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%2280f5702e-0a98-4db2-9a23-4c7250ebe79e%22%7d",
-        linkName: "Empreendedorismo"
-    },
-    {
         materia: "Estrutura de Dados",
         professor: "Bruno Aguilar da Cunha",
         email: "bruno.cunha@facens.br",
@@ -27,6 +18,15 @@ const materias = [
         hora: "18:00h as 19:00h",
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmY0MWIwNmYtOTY3Zi00NzY5LThjZDQtYWJmOGZiNzg1NDU3%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22afbe515f-16ea-4637-96dd-79029fcbc4af%22%7d",
         linkName: "UPX III"
+    },
+    {
+        materia: "Empreendedorismo",
+        professor: "Evandro Klengenfuss Veronez",
+        email: "evandro.veronez@facens.br",
+        dia: "Terça",
+        hora: "19h as 20h",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDMwYzJjZGQtMmVmOC00MzNjLTlmNTUtMGE5MTlmNDViMzEx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%221b575e52-889f-4f2e-b105-8ab037e88ec8%22%7d",
+        linkName: "Empreendedorismo"
     },
     {
         materia: "Linguagens de Programação",
