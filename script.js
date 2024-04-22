@@ -2,6 +2,15 @@ const tbody = document.querySelector("tbody")
 
 const materias = [
     {
+        materia: "Empreendedorismo",
+        professor: "Natália Marangão",
+        email: "natalia.marangao@facens.br",
+        dia: "Segunda",
+        hora: "19h as 20h",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDMwYzJjZGQtMmVmOC00MzNjLTlmNTUtMGE5MTlmNDViMzEx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%221b575e52-889f-4f2e-b105-8ab037e88ec8%22%7d",
+        linkName: "Empreendedorismo"
+    },
+    {
         materia: "Estrutura de Dados",
         professor: "Bruno Aguilar da Cunha",
         email: "bruno.cunha@facens.br",
@@ -9,6 +18,15 @@ const materias = [
         hora: "19h as 20h",
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWU1MzQyYTMtZGY3Yy00ZWMxLTg4NDQtMGRhMmVkMjk2ZjE5%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%222418aa2e-245c-4ab4-a995-0376f0024cd1%22%7d",
         linkName: "ED"
+    },
+    {
+        materia: "Análise de Sistemas",
+        professor: "Johannes Lochter",
+        email: "johannes.lochter@facens.br",
+        dia: "Terça",
+        hora: "21h as 22h",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjUxYTg2YWMtZmM2MC00YWU1LTg0M2UtMzlkOTlmZWRmZmVl%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22e8ed8b30-a1ab-4480-b76d-cc355287fb38%22%7d",
+        linkName: "AS"
     },
     {
         materia: "UPX III",
@@ -20,15 +38,6 @@ const materias = [
         linkName: "UPX III"
     },
     {
-        materia: "Empreendedorismo",
-        professor: "Evandro Klengenfuss Veronez",
-        email: "evandro.veronez@facens.br",
-        dia: "Terça",
-        hora: "19h as 20h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDMwYzJjZGQtMmVmOC00MzNjLTlmNTUtMGE5MTlmNDViMzEx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%221b575e52-889f-4f2e-b105-8ab037e88ec8%22%7d",
-        linkName: "Empreendedorismo"
-    },
-    {
         materia: "Linguagens de Programação",
         professor: "Emerson Dos Santos Paduan",
         email: "emerson.paduan@facens.br",
@@ -36,15 +45,6 @@ const materias = [
         hora: "20h as 21h",
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDUzZDYwNDctMjgzMi00NjkyLTliNmEtY2RhMTBmZDA1M2U4%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%224ecc2cd5-c3b7-451d-9613-63bc411f662b%22%7d",
         linkName: "LP"
-    },
-    {
-        materia: "Análise de Sistemas",
-        professor: "Vanessa Cristina Lourenço",
-        email: "vanessa.lourenco@facens.br",
-        dia: "Quarta",
-        hora: "22h as 23h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjUxYTg2YWMtZmM2MC00YWU1LTg0M2UtMzlkOTlmZWRmZmVl%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22e8ed8b30-a1ab-4480-b76d-cc355287fb38%22%7d",
-        linkName: "AS"
     },
     {
         materia: "Estatística",
