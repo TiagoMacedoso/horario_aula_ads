@@ -1,4 +1,4 @@
-const tbody = document.querySelector("tbody")
+/* const tbody = document.querySelector("tbody")
 
 const materias = [
     {
@@ -74,4 +74,4 @@ for(let i = 0; i < materias.length; i++){
     td_hora.innerText = materias[i].hora
 
     materias[i].link == "Não divulgado" ? td_link.innerText = "Ainda não está disponível" : td_link.innerHTML = `<a href="${materias[i].link}">Clique para acessar o chat de ${materias[i].linkName}</a>`
-}
+} */
