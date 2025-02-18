@@ -1,77 +1,89 @@
-const tbody = document.querySelector("tbody")
-
 const materias = [
     {
-        materia: "UPX IV",
-        professor: "Brenda Medina de Oliveira",
-        email: "brenda.oliveira@facens.br",
-        dia: "Segunda",
-        hora: "21h as 22h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDYxMGY0NmEtOWY2Yy00MDVmLWEyZDItZWNhNmEwZTM0N2E0%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%227326c2b7-2d9c-472f-8cd4-fe0b1fac250e%22%7d",
-        linkName: "UPX IV"
+        materia: "Programação de Aplicativos Mobile", 
+        professor: "Brenda Medina de Oliveira", 
+        email: "brenda.oliveira@facens.br", 
+        dia: "Segunda", 
+        hora: "22h as 22:50h", 
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDliY2YzZGItMTRhZS00MTc5LWI5ODItMDUxNjcwN2JiMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%227326c2b7-2d9c-472f-8cd4-fe0b1fac250e%22%7d", 
+        linkName: "PAM" 
     },
     {
-        materia: "Qualidade e Teste de Software",
-        professor: "Marcelo da Silva",
-        email: "marcelo.silva@facens.br",
-        dia: "Segunda",
-        hora: "21:50h as 22:50h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2ExNWRiODktODk2OC00NWZiLWFjYTUtOGZmYzI4ZGRlOGMx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22bbfbe01a-312d-4822-81f9-33b52731d6da%22%7d",
-        linkName: "QTS"
+        materia: "Inteligência Artificial", 
+        professor: "Daniela Costa de Sena", 
+        email: "daniela.sena@facens.br", 
+        dia: "Terça", 
+        hora: "21h as 22h", 
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDQzNGNjMmEtMzM5Yy00NTNhLTk4NTUtMWFmMWQxMjMwMjUy%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22b335140f-8e92-44df-bb54-5e8d6d5eddd7%22%7d", 
+        linkName: "IA" 
     },
     {
-        materia: "Business Intelligence",
-        professor: "Marcelo da Silva",
-        email: "marcelo.silva@facens.br",
-        dia: "Terça",
-        hora: "20h as 21h",
-        link: "https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZjVmMTg5NTctODM5MC00ZWY2LTg0MjMtOTJhZjYwYzE5ZDNm%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%252259d4f249-0520-46cf-b6b2-873d5da543fe%2522%252c%2522Oid%2522%253a%252291b2b98c-37cc-46eb-aec4-4c28b34364f4%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=91610a15-9391-47ee-8582-30a2895dac19&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true",
-        linkName: "BI"
+        materia: "Lean Startup e Agile", 
+        professor: "Daniela Costa de Sena", 
+        email: "daniela.sena@facens.br", 
+        dia: "Terça", 
+        hora: "21:50h as 22:50h", 
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDI1NzdjNGMtYWEyZi00N2Y4LWJhYzEtYjc4MGQ2ZjZkOTk5%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22b335140f-8e92-44df-bb54-5e8d6d5eddd7%22%7d", 
+        linkName: "LSA" 
     },
     {
-        materia: "Eletiva 1",
-        professor: "Marcelo da Silva",
-        email: "marcelo.silva@facens.br",
-        dia: "Terça",
-        hora: "20h as 21h",
-        link: "https://facens.br",
-        linkName: "Eletiva"
+        materia: "Arquitetura de Aplicações Web", 
+        professor: "Emerson Dos Santos Paduan", 
+        email: "emerson.paduan@facens.br", 
+        dia: "Quinta", 
+        hora: "19h as 20h", 
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzQ3OGRkYTctNzlkOC00ZDAwLTkyMGItYWExZWY5YzI1ODYx%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%224ecc2cd5-c3b7-451d-9613-63bc411f662b%22%7d", 
+        linkName: "AAW" 
     },
     {
-        materia: "Modelagem de Processos de Negócios",
-        professor: "Paula Donaduzzi Rigo",
-        email: "paula.rigo@facens.br",
-        dia: "Quarta",
-        hora: "20h as 21h",
-        link: "https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZDVhNDY3YTUtODA0ZC00NDVmLWE2OWUtNjcxYWUzYzNmMjYw%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%252259d4f249-0520-46cf-b6b2-873d5da543fe%2522%252c%2522Oid%2522%253a%2522fea352f5-65e2-4830-bbf8-57420354406f%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=ee19771f-70a5-4f81-9bf8-0fe421a17955&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true",
-        linkName: "MPN"
+        materia: "UPX - Usina de Projetos Experimentais", 
+        professor: "Emerson Dos Santos Paduan", 
+        email: "emerson.paduan@facens.br", 
+        dia: "Quinta", 
+        hora: "20h as 21h", 
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTRmNTBmOTMtNGJlNi00MGYwLWI4NWEtMzU5ODgyZWI2ZTk4%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%224ecc2cd5-c3b7-451d-9613-63bc411f662b%22%7d", 
+        linkName: "UPX"
     },
     {
-        materia: "Programação Web",
-        professor: "Emerson Dos Santos Paduan",
-        email: "emerson.paduan@facens.br",
-        dia: "Quinta",
-        hora: "21h as 22h",
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWI2NDUxYTMtYjRjYi00ZDM2LWFhYTQtOWI0OTkwMWM2YmI0%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%224ecc2cd5-c3b7-451d-9613-63bc411f662b%22%7d",
-        linkName: "PW"
+        materia: "CyberSecurity", 
+        professor: "Carlos Danilo Luz", 
+        email: "carlos.luz@facens.br", 
+        dia: "Quinta", 
+        hora: "22h as 23h", 
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTRmNTBmOTMtNGJlNi00MGYwLWI4NWEtMzU5ODgyZWI2ZTk4%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%224ecc2cd5-c3b7-451d-9613-63bc411f662b%22%7d", 
+        linkName: "UPX"
     }
 ]
 
-for(let i = 0; i < materias.length; i++){
-    let tr = tbody.insertRow()
-    
-    let td_materia = tr.insertCell()
-    let td_professor = tr.insertCell()
-    let td_email = tr.insertCell()
-    let td_dia = tr.insertCell()
-    let td_hora = tr.insertCell()
-    let td_link = tr.insertCell()
+function mostrarAulas(diaSelecionado, event = null) {
+    const container = document.getElementById('aulas-container');
+    container.innerHTML = '';
 
-    td_materia.innerText = materias[i].materia
-    td_professor.innerText = materias[i].professor
-    td_email.innerText = materias[i].email
-    td_dia.innerText = materias[i].dia
-    td_hora.innerText = materias[i].hora
+    document.querySelectorAll('.dia').forEach(d => d.classList.remove('selecionado'));
+    if (event) {
+        event.target.classList.add('selecionado');
+    }
 
-    materias[i].link == "Não divulgado" ? td_link.innerText = "Ainda não está disponível" : td_link.innerHTML = `<a href="${materias[i].link}">Clique para acessar o chat de ${materias[i].linkName}</a>`
+    const filtradas = materias.filter(m => m.dia === diaSelecionado);
+    filtradas.forEach(m => {
+        const slide = document.createElement('swiper-slide');
+        slide.innerHTML = `
+            <h3>${m.materia}</h3>
+            <p><strong>Professor:</strong> ${m.professor}</p>
+            <p><strong>E-mail:</strong> ${m.email}</p>
+            <p><strong>Horário:</strong> ${m.hora}</p>
+            <a class="teams-link" href="${m.link}" target="_blank">
+                <img src="./assets/teams.png" alt="Teams">
+            </a>
+        `;
+        container.appendChild(slide);
+    });
 }
+
+window.onload = function () {
+    const diasSemana = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
+    const hoje = new Date().getDay();
+    if (diasSemana[hoje] !== "Domingo" && diasSemana[hoje] !== "Sábado") {
+        mostrarAulas(diasSemana[hoje]);
+    }
+};

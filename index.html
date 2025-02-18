@@ -1,44 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horários das aulas</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Calendário de Aulas</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <section>
-        <h1>ADS Facens <span>-</span> Segundo semestre <span>-</span> 2023</h1>
+        <h1>Calendário (não oficial) - ADS Terceiro Semestre - Facens</h1>
     </section>
 
     <section>
-        <table>
-            <thead>
-                <tr>
-                    <th>Matéria</th>
-                    <th>Professor</th>
-                    <th>E-mail</th>
-                    <th>Dia</th>
-                    <th>Hora</th>
-                    <th>Link</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
+        <div class="dias">
+            <span class="dia" onclick="mostrarAulas('Segunda', event)">Segunda</span>
+            <span class="dia" onclick="mostrarAulas('Terça', event)">Terça</span>
+            <span class="dia" onclick="mostrarAulas('Quarta', event)">Quarta</span>
+            <span class="dia" onclick="mostrarAulas('Quinta', event)">Quinta</span>
+            <span class="dia" onclick="mostrarAulas('Sexta', event)">Sexta</span>
+        </div>
 
-            <caption>Esse <b>NÃO</b> é um calendário oficial da Facens. Sou um aluno tentando ajudar outros alunos.</caption>
-        </table>
+        <swiper-container class="mySwiper" pagination="false" effect="coverflow" grab-cursor="true" centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true" id="aulas-container">
+        </swiper-container>
     </section>
-    
+
     <section class="media">
         <a href="https://github.com/tiagomacedoso/"><img src="./assets/github.svg" alt="Ícone com link para o GitHub do criador da página"></a>
         <a href="https://www.linkedin.com/in/tiagomacedoso/"><img src="./assets/linkedin.svg" alt="Ícone com link para o LinkedId do criador da página"></a>
-        <a href="https://github.com/TiagoMacedoso/regra_de_tres/"><img src="./assets/code.svg" alt="Ícone com link para o repositório de códigos utilizados para criar a página"></a>
+        <a href="https://github.com/TiagoMacedoso/horario_aula_ads/"><img src="./assets/code.svg" alt="Ícone com link para o repositório de códigos utilizados para criar a página"></a>
 
     </section>
 
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="./script.js"></script>
 </body>
-
 </html>
