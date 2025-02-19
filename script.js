@@ -56,34 +56,40 @@ const materias = [
 ]
 
 function mostrarAulas(diaSelecionado, event = null) {
-    const container = document.getElementById('aulas-container');
-    container.innerHTML = '';
+    const container = document.getElementById('aulas-container')
+    container.innerHTML = ''
 
-    document.querySelectorAll('.dia').forEach(d => d.classList.remove('selecionado'));
+    document.querySelectorAll('.dia').forEach(d => d.classList.remove('selecionado'))
     if (event) {
-        event.target.classList.add('selecionado');
+        event.target.classList.add('selecionado')
     }
 
-    const filtradas = materias.filter(m => m.dia === diaSelecionado);
+    const filtradas = materias.filter(m => m.dia === diaSelecionado)
     filtradas.forEach(m => {
         const slide = document.createElement('swiper-slide');
         slide.innerHTML = `
             <h3>${m.materia}</h3>
-            <p><strong>Professor:</strong> ${m.professor}</p>
-            <p><strong>E-mail:</strong> ${m.email}</p>
-            <p><strong>Horário:</strong> ${m.hora}</p>
+            <p><strong>Professor:</strong><br> ${m.professor}</p>
+            <p><strong>E-mail:</strong><br> ${m.email}</p>
+            <p><strong>Horário:</strong><br> ${m.hora}</p>
             <a class="teams-link" href="${m.link}" target="_blank">
                 <img src="./assets/teams.png" alt="Teams">
             </a>
-        `;
-        container.appendChild(slide);
-    });
+        `
+        container.appendChild(slide)
+    })
 }
 
 window.onload = function () {
-    const diasSemana = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
+    const diasSemana = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
     const hoje = new Date().getDay();
     if (diasSemana[hoje] !== "Domingo" && diasSemana[hoje] !== "Sábado") {
-        mostrarAulas(diasSemana[hoje]);
+        mostrarAulas(diasSemana[hoje])
+
+        document.querySelectorAll('.dia').forEach((span) => {
+            if (span.textContent.trim() === diasSemana[hoje]) {
+                span.classList.add('selecionado')
+            }
+        })
     }
 };
