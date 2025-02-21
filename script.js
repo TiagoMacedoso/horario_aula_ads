@@ -50,7 +50,7 @@ const materias = [
         email: "carlos.luz@facens.br", 
         dia: "Quinta", 
         hora: "22h as 23h", 
-        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTRmNTBmOTMtNGJlNi00MGYwLWI4NWEtMzU5ODgyZWI2ZTk4%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%224ecc2cd5-c3b7-451d-9613-63bc411f662b%22%7d", 
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWY1MDE2OTMtOTcwZS00ZjZiLTkyZTMtMzNhMDQ1MTdiMDRj%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%229ebfb673-1213-443e-8f6b-4d3550d6e21c%22%7d", 
         linkName: "UPX"
     }
 ]
