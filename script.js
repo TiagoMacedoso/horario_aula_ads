@@ -12,7 +12,7 @@ const materias = [
         materia: "Inteligência Artificial", 
         professor: "Daniela Costa de Sena", 
         email: "daniela.sena@facens.br", 
-        dia: "Quarta", 
+        dia: "Terça", 
         hora: "21h as 22h", 
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDQzNGNjMmEtMzM5Yy00NTNhLTk4NTUtMWFmMWQxMjMwMjUy%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22b335140f-8e92-44df-bb54-5e8d6d5eddd7%22%7d", 
         linkName: "IA" 
