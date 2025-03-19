@@ -21,7 +21,7 @@ const materias = [
         materia: "Lean Startup e Agile", 
         professor: "Daniela Costa de Sena", 
         email: "daniela.sena@facens.br", 
-        dia: "Quarta", 
+        dia: "Terça", 
         hora: "21:50h as 22:50h", 
         link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDI1NzdjNGMtYWEyZi00N2Y4LWJhYzEtYjc4MGQ2ZjZkOTk5%40thread.v2/0?context=%7b%22Tid%22%3a%2259d4f249-0520-46cf-b6b2-873d5da543fe%22%2c%22Oid%22%3a%22b335140f-8e92-44df-bb54-5e8d6d5eddd7%22%7d", 
         linkName: "LSA" 
